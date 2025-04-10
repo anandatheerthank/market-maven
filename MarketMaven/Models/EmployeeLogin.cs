@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace MarketMaven.Models
 {
     public class EmployeeLogin
     {
+        // Implement code here
         [Required(ErrorMessage = "Please enter the email")]
         public string Email { get; set; }
 

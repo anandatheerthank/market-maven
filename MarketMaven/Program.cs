@@ -28,6 +28,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Merket}/{action=RegisterForm}/{id?}");
+    pattern: "{controller=Market}/{action=RegisterForm}/{id?}");
 
 app.Run();
+	 	  	  		    	  	   	    	 	

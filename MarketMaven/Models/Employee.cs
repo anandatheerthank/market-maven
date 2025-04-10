@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace MarketMaven.Models
 {
     public class Employee
     {
+        // Implement code here
         [Key]
         public int Id { get; set; }
 
@@ -29,3 +30,4 @@ namespace MarketMaven.Models
         public long Contact { get; set; }
     }
 }
+	 	  	  		    	  	   	    	 	

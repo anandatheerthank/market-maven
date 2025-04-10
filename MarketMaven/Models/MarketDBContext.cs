@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace MarketMaven.Models
 {
@@ -9,6 +9,7 @@ namespace MarketMaven.Models
 
         }
 
+        // Implement code here
         public DbSet<Employee> Employees { set; get; }
     }
 }
